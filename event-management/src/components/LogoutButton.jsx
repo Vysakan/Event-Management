@@ -10,7 +10,7 @@ function LogoutButton() {
     localStorage.clear()
 
     navigate('/login')
-  }
+  } 
 
   return (
 
