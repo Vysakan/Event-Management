@@ -32,6 +32,9 @@ import BookingRequests from './pages/company/BookingRequests'
 import ProtectedRoute from './routes/ProtectedRoute'
 import Payments from './pages/user/Payments'
 import Revenue from './pages/company/Revenue'
+import About from './pages/public/About'
+import Portfolio from './pages/public/Portfolio'
+import Contact from './pages/public/Contact'
 
 function App() {
 
@@ -164,6 +167,20 @@ function App() {
             </ProtectedRoute>
           }
         />
+      <Route
+  path="/about"
+  element={<About />}
+/>
+
+<Route
+  path="/portfolio"
+  element={<Portfolio />}
+/>
+
+<Route
+  path="/contact"
+  element={<Contact />}
+/>
 
       </Routes>
 
